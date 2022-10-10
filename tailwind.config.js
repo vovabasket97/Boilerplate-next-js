@@ -5,6 +5,10 @@ module.exports = {
 	],
 	theme: {
 		extend: {
+			colors: {
+				'main': '#010101',
+				'border': '#515151'
+			},
 			transitionTimingFunction: {
 				DEFAULT: 'ease-in-out',
 			},
